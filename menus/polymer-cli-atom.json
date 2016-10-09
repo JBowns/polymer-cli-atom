@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle polymer-cli-atom",
+        "command": "polymer-cli-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "polymer-cli-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "polymer-cli-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
